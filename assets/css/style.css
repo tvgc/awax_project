@@ -31,6 +31,7 @@ header {
     width: 80px;
     height: 80px;
     background-color: #B28756;
+    border-radius: 40px;
 }
 
 .menu {
@@ -65,4 +66,26 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid #B28756;
+    color: #333;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders {
+    height: 100%;
+    width: 1000vw;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .slide {
+    height: 100%;
+    width: 100vw;
+    display: inline-block;
 }
