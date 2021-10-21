@@ -89,3 +89,42 @@ header {
     width: 100vw;
     display: inline-block;
 }
+
+.banner .slidearea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    height: 100%;
+    justify-content: center;
+}
+
+.slidearea h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slidearea span {
+    color: #B28756;
+    display: flex;
+    justify-content: center;
+}
+
+.slidearea h2 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.slidearea a {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #B28756;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
